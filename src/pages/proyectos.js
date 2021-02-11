@@ -5,11 +5,11 @@ import { css } from "@emotion/react"
 import Layout from "../components/layout"
 
 // markup
-const IndexPage = () => {
+const Proyectos = () => {
   return (
     <Layout>
     </Layout>
   )
 }
 
-export default IndexPage
+export default Proyectos

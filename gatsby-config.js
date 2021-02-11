@@ -2,5 +2,5 @@ module.exports = {
   siteMetadata: {
     title: "Jair Danilo Enriquez Alva",
   },
-  plugins: ["gatsby-plugin-styled-components"],
+  plugins: ["gatsby-plugin-emotion"],
 };
