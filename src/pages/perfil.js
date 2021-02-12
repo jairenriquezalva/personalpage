@@ -13,7 +13,7 @@ const Perfil = () => {
         display: flex;
       `}>
         <p css={css`
-        padding: 1em; color: white
+        padding: 1em; color: gray;
         `}>
         Hola, soy Jair Enriquez, actualmente estoy cursando el decimo ciclo de la carrera ingeniería de software, y desempeño el rol de trainee de desarrollo de software en la empresa TCS.
         Actualmente busco un puesto como desarrollador de software.

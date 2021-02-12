@@ -18,7 +18,6 @@ export default function HTML(props) {
         css={css`
           margin: 0;
           padding: 0;
-          background-color: #48C9B0;
           font-family: Verdana, Geneva, Tahoma, sans-serif;
         `}>
         {props.preBodyComponents}
