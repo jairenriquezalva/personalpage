@@ -79,7 +79,7 @@ const Layout = ( {children} ) => {
                            
                         }
                     `}>
-                        <Link to="/perfil" active={currentLink=="/perfil"}>Perfil</Link>
+                        <Link to="/" active={currentLink=="/"}>Perfil</Link>
                         <Link to="/experiencia" active={currentLink=="/experiencia"}>Experiencia</Link>
                         <Link to="/proyectos" active={currentLink=="/proyectos"}>Proyectos</Link>
                         <Link to="/conocimientos" active={currentLink=="/conocimientos"}>Conocimientos</Link>
