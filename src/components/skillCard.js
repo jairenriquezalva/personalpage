@@ -20,7 +20,7 @@ const SkillCard = ({ skillName, skillLevel })=>{
             <div css={css`
                 width: 300px;
             `}>
-                {level.map((_,i)=><div key={i} css={css`margin: 3px; display: inline-block; width:1em; height: 1em; background-color: #E8F8F5;`}></div>)}
+                {level.map((_,i)=><div key={i} css={css`margin: 3px; display: inline-block; width:1em; height: 1em; background-color: #48CE6F;`}></div>)}
             </div>
         </div>
     )

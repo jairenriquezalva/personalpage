@@ -4,7 +4,7 @@ import { css } from "@emotion/react"
 import Layout from "../components/layout"
 
 import ExperienceCard from "../components/experienceCard"
-
+import "../components/css.css"
 // markup
 const Experiencia = () => {
   return (
@@ -18,11 +18,18 @@ const Experiencia = () => {
         box-sizing: border-box;
       `}>
         <ExperienceCard 
+          institution="VG All Services" 
+          institutionDescription="Empresa que se dedica a brindar servicios de desarrollo de software y auditoria para empresas de Telecomunicaciones.  "
+          rol="Programador Python"
+          rolActivities={["Desarrollo de los servicios REST con DJANGO y FASTAPI", "Extraccion de datos", "Desarrollo de la aplicacion web con REACT"]}
+          period="Marzo 2021 - Actualidad"
+        />
+        <ExperienceCard 
           institution="Tata Consultancy Services" 
           institutionDescription="Empresa que se dedica a prestar servicios de outsourcing en el rubro de tecnologias de informacion a diferentes instituciones"
           rol="Trainee de Ingenieria de Sistemas"
           rolActivities={["mantenimiento del software CONSYST BCP", "Desarrollo de nuevos requerimientos para el sistema CONSYST BCP "]}
-          period="Julio 2020 - Septiembre 2020"
+          period="Diciembre 2020 - Marzo 2021"
           />
         <ExperienceCard 
           institution="VG All Services" 
